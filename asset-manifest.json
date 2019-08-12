@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/photo_album_rating/static/css/main.cfda8877.chunk.css",
-    "main.js": "/photo_album_rating/static/js/main.31d3c8d0.chunk.js",
-    "main.js.map": "/photo_album_rating/static/js/main.31d3c8d0.chunk.js.map",
+    "main.js": "/photo_album_rating/static/js/main.f74490ef.chunk.js",
+    "main.js.map": "/photo_album_rating/static/js/main.f74490ef.chunk.js.map",
     "runtime~main.js": "/photo_album_rating/static/js/runtime~main.225e6f8b.js",
     "runtime~main.js.map": "/photo_album_rating/static/js/runtime~main.225e6f8b.js.map",
     "static/css/2.7ccc5c51.chunk.css": "/photo_album_rating/static/css/2.7ccc5c51.chunk.css",
     "static/js/2.0e2dd4a9.chunk.js": "/photo_album_rating/static/js/2.0e2dd4a9.chunk.js",
     "static/js/2.0e2dd4a9.chunk.js.map": "/photo_album_rating/static/js/2.0e2dd4a9.chunk.js.map",
     "index.html": "/photo_album_rating/index.html",
-    "precache-manifest.0d8287993a53a0d9f7b36d7822cb250c.js": "/photo_album_rating/precache-manifest.0d8287993a53a0d9f7b36d7822cb250c.js",
+    "precache-manifest.7a7ecff29105343d731a7ac7cccc3bf5.js": "/photo_album_rating/precache-manifest.7a7ecff29105343d731a7ac7cccc3bf5.js",
     "service-worker.js": "/photo_album_rating/service-worker.js",
     "static/css/2.7ccc5c51.chunk.css.map": "/photo_album_rating/static/css/2.7ccc5c51.chunk.css.map",
     "static/css/main.cfda8877.chunk.css.map": "/photo_album_rating/static/css/main.cfda8877.chunk.css.map"
