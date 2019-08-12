@@ -2,7 +2,7 @@
   "name": "heyjoe",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://luckytaurus1225.github.io/photo-album-rating",
+  "homepage": "https://luckytaurus1225.github.io/photo_album_rating",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.1.1",
