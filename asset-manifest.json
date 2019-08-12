@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/photo-album-rating/static/css/main.cfda8877.chunk.css",
-    "main.js": "/photo-album-rating/static/js/main.396b9c5a.chunk.js",
-    "main.js.map": "/photo-album-rating/static/js/main.396b9c5a.chunk.js.map",
-    "runtime~main.js": "/photo-album-rating/static/js/runtime~main.bc84f19f.js",
-    "runtime~main.js.map": "/photo-album-rating/static/js/runtime~main.bc84f19f.js.map",
-    "static/css/2.7ccc5c51.chunk.css": "/photo-album-rating/static/css/2.7ccc5c51.chunk.css",
-    "static/js/2.9aa9e2d7.chunk.js": "/photo-album-rating/static/js/2.9aa9e2d7.chunk.js",
-    "static/js/2.9aa9e2d7.chunk.js.map": "/photo-album-rating/static/js/2.9aa9e2d7.chunk.js.map",
-    "index.html": "/photo-album-rating/index.html",
-    "precache-manifest.f9e2de55ccf08fa3b0ef0b6b917cc222.js": "/photo-album-rating/precache-manifest.f9e2de55ccf08fa3b0ef0b6b917cc222.js",
-    "service-worker.js": "/photo-album-rating/service-worker.js",
-    "static/css/2.7ccc5c51.chunk.css.map": "/photo-album-rating/static/css/2.7ccc5c51.chunk.css.map",
-    "static/css/main.cfda8877.chunk.css.map": "/photo-album-rating/static/css/main.cfda8877.chunk.css.map"
+    "main.css": "/photo_album_rating/static/css/main.cfda8877.chunk.css",
+    "main.js": "/photo_album_rating/static/js/main.a42c2b67.chunk.js",
+    "main.js.map": "/photo_album_rating/static/js/main.a42c2b67.chunk.js.map",
+    "runtime~main.js": "/photo_album_rating/static/js/runtime~main.b1818bbe.js",
+    "runtime~main.js.map": "/photo_album_rating/static/js/runtime~main.b1818bbe.js.map",
+    "static/css/2.7ccc5c51.chunk.css": "/photo_album_rating/static/css/2.7ccc5c51.chunk.css",
+    "static/js/2.9aa9e2d7.chunk.js": "/photo_album_rating/static/js/2.9aa9e2d7.chunk.js",
+    "static/js/2.9aa9e2d7.chunk.js.map": "/photo_album_rating/static/js/2.9aa9e2d7.chunk.js.map",
+    "index.html": "/photo_album_rating/index.html",
+    "precache-manifest.01b38bbbf43d5186314f261523407a9d.js": "/photo_album_rating/precache-manifest.01b38bbbf43d5186314f261523407a9d.js",
+    "service-worker.js": "/photo_album_rating/service-worker.js",
+    "static/css/2.7ccc5c51.chunk.css.map": "/photo_album_rating/static/css/2.7ccc5c51.chunk.css.map",
+    "static/css/main.cfda8877.chunk.css.map": "/photo_album_rating/static/css/main.cfda8877.chunk.css.map"
   }
 }
