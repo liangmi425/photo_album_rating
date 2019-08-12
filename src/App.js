@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Photo from './components/Photo'
+import PhotoListItem from './components/PhotoListItem'
 import Header from './components/Header'
 import './App.css'
 import 'bootstrap/scss/bootstrap.scss'
@@ -61,7 +62,8 @@ export default class extends Component {
       displayedCategories: PHOTODATA,
       active: false,
       photoIndex: 0,
-      isOpen: false
+      isOpen: false,
+      isListView: false
     }
   }
 
@@ -98,6 +100,10 @@ export default class extends Component {
 
   openLightBox = (photoIndex) => {
     this.setState({ isOpen: true, photoIndex: photoIndex })
+  }
+
+  handleListViewChecked = () => {
+    this.setState({ isListView: !this.state.isListView })
   }
 
   render() {
@@ -137,10 +143,21 @@ export default class extends Component {
           </section>
           <div className="pb-5 pt-5 bg-light">
             <div className="container">
+              <div className="text-right">
+                <div className="custom-control custom-switch mb-4">
+                  <input type="checkbox" className="custom-control-input" id="customSwitch1" onChange={this.handleListViewChecked} />
+                  <label className="custom-control-label" htmlFor="customSwitch1">List View</label>
+                </div>
+              </div>
               <div className="row">
                 {
-                  this.state.displayedCategories.map(function (el, i) {
+                  !this.state.isListView && this.state.displayedCategories.map(function (el, i) {
                     return <Photo key={el.id} imageUrl={el.thumbnail} category={el.category} title={el.title} onClick={self.openLightBox.bind(null, i)} description={el.description} />
+                  })
+                }
+                {
+                  this.state.isListView && this.state.displayedCategories.map(function (el, i) {
+                    return <PhotoListItem key={el.id} imageUrl={el.thumbnail} category={el.category} title={el.title} onClick={self.openLightBox.bind(null, i)} description={el.description} />
                   })
                 }
               </div>
