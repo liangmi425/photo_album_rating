@@ -8,7 +8,7 @@ export default class extends Component {
           <img style={{ maxHeight: '150px' }} className="card-img-top img-responsive" src={this.props.imageUrl} alt="Images here..." />
           <div className="card-body">
             <h5 className="card-title">{this.props.title}</h5>
-            <p className="card-text">{this.props.description}</p>
+            <p className="card-text">{this.props.description.length > 90 ? this.props.description.slice(0, 90) + '...' : this.props.description}</p>
           </div>
           <div className="card-footer">
             <span className="badge badge-info"><small>{this.props.category}</small></span>
