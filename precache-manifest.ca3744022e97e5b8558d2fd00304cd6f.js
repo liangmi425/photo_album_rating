@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f0040368adaf3dc676c7c30d7d52c1d4",
+    "revision": "85afc0772104b62b13734f86873660f5",
     "url": "/photo_album_rating/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/photo_album_rating/static/css/2.9c7ff97b.chunk.css"
   },
   {
-    "revision": "ab8420e25f4eb233b1d2",
-    "url": "/photo_album_rating/static/css/main.1cdee708.chunk.css"
+    "revision": "d6d01ecbe9fe3b4f984e",
+    "url": "/photo_album_rating/static/css/main.04647f85.chunk.css"
   },
   {
     "revision": "fb0a9408cd18861f42b1",
     "url": "/photo_album_rating/static/js/2.cf8e5a1d.chunk.js"
   },
   {
-    "revision": "ab8420e25f4eb233b1d2",
-    "url": "/photo_album_rating/static/js/main.4f808791.chunk.js"
+    "revision": "d6d01ecbe9fe3b4f984e",
+    "url": "/photo_album_rating/static/js/main.626dc566.chunk.js"
   },
   {
     "revision": "e81ab895b1a290ee6cdb",
