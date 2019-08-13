@@ -2,10 +2,10 @@ import React, { Component, Fragment } from 'react';
 import Photo from './components/Photo'
 import PhotoListItem from './components/PhotoListItem'
 import Header from './components/Header'
-import './App.css'
+import './App.scss'
 import 'bootstrap/scss/bootstrap.scss'
-import Lightbox from 'react-image-lightbox'
-import 'react-image-lightbox/style.css'
+import Lightbox from './components/ImageLightbox'
+import './components/ImageLightbox/style.css'
 
 const PHOTODATA = [
   {
@@ -106,6 +106,12 @@ export default class extends Component {
     this.setState({ isListView: !this.state.isListView })
   }
 
+  ratePhoto = (rate) => {
+    let displayedCategories = JSON.parse(JSON.stringify(this.state.displayedCategories));
+    displayedCategories[this.state.photoIndex].category = rate;
+    this.setState({ rate: rate, displayedCategories: JSON.parse(JSON.stringify(displayedCategories)) });
+  }
+
   render() {
     const { photoIndex, isOpen } = this.state;
     const images = this.state.displayedCategories;
@@ -169,6 +175,7 @@ export default class extends Component {
             mainSrc={images[photoIndex].imageUrl}
             nextSrc={images[(photoIndex + 1) % images.length].imageUrl}
             prevSrc={images[(photoIndex + images.length - 1) % images.length].imageUrl}
+            onRateClick={this.ratePhoto}
             onCloseRequest={() => this.setState({ isOpen: false })}
             onMovePrevRequest={() =>
               this.setState({
@@ -180,7 +187,9 @@ export default class extends Component {
                 photoIndex: (photoIndex + 1) % images.length,
               })
             }
-          />
+          >
+            <button>sdfsadf</button>
+          </Lightbox>
         )}
       </Fragment>
     );
