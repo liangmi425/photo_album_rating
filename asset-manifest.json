@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/photo_album_rating/static/css/main.cfda8877.chunk.css",
-    "main.js": "/photo_album_rating/static/js/main.f74490ef.chunk.js",
-    "main.js.map": "/photo_album_rating/static/js/main.f74490ef.chunk.js.map",
+    "main.css": "/photo_album_rating/static/css/main.1cdee708.chunk.css",
+    "main.js": "/photo_album_rating/static/js/main.4f808791.chunk.js",
+    "main.js.map": "/photo_album_rating/static/js/main.4f808791.chunk.js.map",
     "runtime~main.js": "/photo_album_rating/static/js/runtime~main.225e6f8b.js",
     "runtime~main.js.map": "/photo_album_rating/static/js/runtime~main.225e6f8b.js.map",
-    "static/css/2.7ccc5c51.chunk.css": "/photo_album_rating/static/css/2.7ccc5c51.chunk.css",
-    "static/js/2.0e2dd4a9.chunk.js": "/photo_album_rating/static/js/2.0e2dd4a9.chunk.js",
-    "static/js/2.0e2dd4a9.chunk.js.map": "/photo_album_rating/static/js/2.0e2dd4a9.chunk.js.map",
+    "static/css/2.9c7ff97b.chunk.css": "/photo_album_rating/static/css/2.9c7ff97b.chunk.css",
+    "static/js/2.cf8e5a1d.chunk.js": "/photo_album_rating/static/js/2.cf8e5a1d.chunk.js",
+    "static/js/2.cf8e5a1d.chunk.js.map": "/photo_album_rating/static/js/2.cf8e5a1d.chunk.js.map",
     "index.html": "/photo_album_rating/index.html",
-    "precache-manifest.7a7ecff29105343d731a7ac7cccc3bf5.js": "/photo_album_rating/precache-manifest.7a7ecff29105343d731a7ac7cccc3bf5.js",
+    "precache-manifest.0f20a1f87d08163383aacf7b37c53eba.js": "/photo_album_rating/precache-manifest.0f20a1f87d08163383aacf7b37c53eba.js",
     "service-worker.js": "/photo_album_rating/service-worker.js",
-    "static/css/2.7ccc5c51.chunk.css.map": "/photo_album_rating/static/css/2.7ccc5c51.chunk.css.map",
-    "static/css/main.cfda8877.chunk.css.map": "/photo_album_rating/static/css/main.cfda8877.chunk.css.map"
+    "static/css/2.9c7ff97b.chunk.css.map": "/photo_album_rating/static/css/2.9c7ff97b.chunk.css.map",
+    "static/css/main.1cdee708.chunk.css.map": "/photo_album_rating/static/css/main.1cdee708.chunk.css.map"
   }
 }
