@@ -3,10 +3,10 @@ import React, { Component } from 'react'
 export default class extends Component {
   render() {
     return (
-      <div className="card mb-3" data-category={this.props.category} onClick={this.props.onClick}>
+      <div className="card mb-3" data-category={this.props.category}>
         <div className="row no-gutters">
-          <div className="col-md-4">
-            <img style={{height: '100%'}} className="card-img rounded-0" src={this.props.imageUrl} alt="Images here..." />
+          <div className="col-md-4"  onClick={this.props.onClick}>
+            <img style={{height: '100%', cursor: 'pointer'}} className="card-img rounded-0" src={this.props.imageUrl} alt="Images here..." />
           </div>
           <div className="col-md-8">
             <div className="card-body">

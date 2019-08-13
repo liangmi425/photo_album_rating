@@ -345,14 +345,14 @@
 
 .ril-actions {
   position: absolute;
-  left: calc(50% - 273px);
+  left: calc(50% - 160.5px);
   bottom: 0;
   text-align: center;
-  padding-bottom: 150px;
+  padding-bottom: 75px;
 }
 
 .ril-actions__btn {
-  width: 150px;
+  width: 75px;
   cursor: pointer;
 }
 

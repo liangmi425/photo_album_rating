@@ -158,12 +158,12 @@ export default class extends Component {
               <div className="row">
                 {
                   !this.state.isListView && this.state.displayedCategories.map(function (el, i) {
-                    return <Photo key={el.id} imageUrl={el.thumbnail} category={el.category} title={el.title} onClick={self.openLightBox.bind(null, i)} description={el.description} />
+                    return <Photo key={el.id} imageUrl={el.imageUrl} category={el.category} title={el.title} onClick={self.openLightBox.bind(null, i)} description={el.description} />
                   })
                 }
                 {
                   this.state.isListView && this.state.displayedCategories.map(function (el, i) {
-                    return <PhotoListItem key={el.id} imageUrl={el.thumbnail} category={el.category} title={el.title} onClick={self.openLightBox.bind(null, i)} description={el.description} />
+                    return <PhotoListItem key={el.id} imageUrl={el.imageUrl} category={el.category} title={el.title} onClick={self.openLightBox.bind(null, i)} description={el.description} />
                   })
                 }
               </div>

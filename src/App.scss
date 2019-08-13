@@ -2,4 +2,14 @@
   .fixed-top {
     z-index: 999;
   }
+  .card-footer__action {
+    float: right;
+  }
+  .card-footer__action_btn {
+    width: 16px;
+    cursor: pointer;
+  }
+  .card-footer__action_btn:hover {
+    opacity: .7;
+  }
 }
